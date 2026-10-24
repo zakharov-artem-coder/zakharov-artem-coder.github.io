@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Artem Zakharov — Software Engineer</title>
+<meta name="description" content="Artem Zakharov — Software Engineer building AI & Web Products.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<script>(function(){var t=localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t;})();</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a href="#top" class="logo" aria-label="Home">AZ</a>
+  <nav aria-label="Primary"><a href="#about">About</a><a href="#work">What I do</a><a href="#projects">Projects</a><a href="#contact">Contact</a></nav>
+  <button id="theme" class="toggle" aria-label="Toggle dark theme"><span aria-hidden="true"></span></button>
+</header>
+<main id="main">
+<section id="top" class="hero">
+  <p class="eyebrow reveal">Hello, I'm</p>
+  <h1 class="reveal">Artem Zakharov</h1>
+  <p class="sub reveal" lang="ru">Артём Захаров</p>
+  <p class="tag reveal">Software Engineer <span>|</span> Building AI &amp; Web Products</p>
+  <div class="cta reveal"><a class="btn" href="#contact">Get in touch</a><a class="btn ghost" href="#projects">See work</a></div>
+</section>
+<section id="about"><h2 class="reveal">About</h2><div class="prose reveal">
+<p>I'm a full-stack software engineer building AI-powered and web products.</p>
+<p>I work across the stack, from system design and architecture to backend services, integrations, and user interfaces, with a focus on reliable, maintainable software and full ownership of what I ship.</p>
+<p>Beyond engineering, I'm increasingly focused on the product and business side: validating ideas, understanding customers, and bringing products to market.</p>
+<p>Open to connecting with founders and engineers building ambitious products.</p></div></section>
+<section id="work"><h2 class="reveal">What I do</h2><ul class="grid">
+<li class="card reveal">Software Engineering</li><li class="card reveal">Software Architecture</li><li class="card reveal">System Design</li><li class="card reveal">Full-Stack Development</li><li class="card reveal">Product Engineering</li><li class="card reveal">API Design</li><li class="card reveal">Technical Leadership</li><li class="card reveal">AI Integration</li></ul></section>
+<section id="projects"><h2 class="reveal">Projects</h2>
+  <div class="soon reveal"><span class="badge">Coming soon</span><p>Selected projects will be published here. Meanwhile, see <a href="https://github.com/zakharov-artem-coder">GitHub</a>.</p></div>
+</section>
+<section id="contact"><h2 class="reveal">Contact</h2>
+<form id="form" class="reveal" novalidate>
+  <div class="field"><label for="name">Name</label><input id="name" name="name" autocomplete="name" required><small class="err" aria-live="polite"></small></div>
+  <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required><small class="err" aria-live="polite"></small></div>
+  <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10"></textarea><small class="err" aria-live="polite"></small></div>
+  <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+  <button class="btn" type="submit">Send message</button>
+  <p id="status" role="status" aria-live="polite"></p>
+</form>
+<div id="success" class="success" hidden tabindex="-1"><h3>Thank you!</h3><p>Your message has been sent. I'll get back to you soon.</p></div>
+</section>
+</main>
+<footer><p>© <span id="y"></span> Artem Zakharov</p><p><a href="https://www.linkedin.com/in/a-zakharov/" rel="noopener" target="_blank">LinkedIn</a><a href="https://github.com/zakharov-artem-coder" rel="noopener" target="_blank">GitHub</a></p></footer>
+<script src="main.js"></script>
+</body></html>
