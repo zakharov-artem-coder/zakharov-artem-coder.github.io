@@ -87,3 +87,8 @@ footer{align-items:center;border-top:0}
 .gsap .reveal{opacity:1;transform:none;transition:none}
 @media (max-width:760px){.hero{flex-direction:column-reverse;justify-content:center;text-align:center;padding-top:3rem}.cta{justify-content:center}}
 @media (prefers-reduced-motion:reduce){.ring{animation:none}#glow{display:none}}
+
+.reveal,.js .reveal{opacity:1;transform:none}
+.magnetic{display:inline-flex;align-items:center;justify-content:center}
+.split .w{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em}
+.split .ch{display:inline-block;background:inherit;-webkit-background-clip:text;background-clip:text}

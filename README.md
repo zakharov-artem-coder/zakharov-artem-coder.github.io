@@ -1,5 +1,10 @@
 # Portfolio
 
-One-page portfolio of Artem Zakharov. Plain HTML/CSS/JS, deployed with GitHub Pages.
+One-page portfolio of Artem Zakharov. React + Vite + TypeScript, animations with Motion (Framer Motion).
 
-Contact form uses FormSubmit; set `FORM_EMAIL` in `main.js` (szakharovartem@gmail.com).
+```
+npm i
+npm run dev
+```
+
+Deployed to GitHub Pages by `.github/workflows/deploy.yml`. Contact form uses FormSubmit (`FORM_EMAIL` in `src/App.tsx`).
